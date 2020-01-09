@@ -1,0 +1,34 @@
+<%@ page isELIgnored="false" %>
+<!DOCTYPE html>
+<html>
+<body background=C:\Users\admin\Downloads\image.jpeg>
+<form action="bookCRUD">
+<table align=left width=30% border=2>
+<tr>
+<th>Book Id</th>
+<td bgcolor=blue><input type=text name=bookid value=${book.bookid }></td>
+</tr>
+<tr>
+<th>Book Title</th>
+<td bgcolor=yellow><input type=text name=booktitle value=${book.booktitle }></td>
+</tr>
+<tr>
+<th>Book price</th>
+<td bgcolor=blue><input type=text name=price value=${book.price }></td>
+</tr>
+<tr>
+<th>Book Author</th>
+<td bgcolor=yellow><input type=text name=author value=${book.author }></td>
+</tr>
+<tr>
+<td bgcolor=Blue><input type=submit value="Add_Book" name="sub"></td>
+<td bgcolor=Blue><input type=submit value="Del_Book" name="sub"></td>
+</tr>
+<tr>
+<td bgcolor=yellow><input type=submit value="Mod_Book" name="sub"></td>
+<td bgcolor=yellow><input type=submit value="Get_Book" name="sub"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
